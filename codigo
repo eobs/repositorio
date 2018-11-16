@@ -1,0 +1,7 @@
+
+<tr valign="top">
+<td align=right><p><?php print_string("idnumber") ?>:</p></td>
+<td><input type="text" name="idnumber" size="25" value="<?php p($user->idnumber) ?>" />
+<?php if (!empty($err->idnumber)) { formerr($err->idnumber);} ?>
+</td>
+</tr>
